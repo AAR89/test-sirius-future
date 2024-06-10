@@ -41,7 +41,9 @@ export default function Scheduler() {
             <option value="value2">Значение 2</option>
             <option value="value3">Значение 3</option>
           </select>
-          <button className="submit_btn">Изменить расписание</button>
+          <a href="#">
+            <button className="submit_btn">Изменить расписание</button>
+          </a>
         </div>
         <div className="calendar">
           <div className="month_pagination">
