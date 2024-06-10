@@ -1,0 +1,200 @@
+a {
+  text-decoration: none;
+}
+
+.EntrySection {
+  margin-top: 152px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .content {
+    /* border: solid 1px black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 340px;
+    .EntrySection_logos_container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      .EntrySection_logo_main {
+        width: 80px;
+        height: 80px;
+      }
+
+      .EntrySection_logo_detail1 {
+        position: absolute;
+        width: 34.44px;
+        height: 23.54px;
+        margin-left: 15px;
+        margin-top: -15px;
+      }
+
+      .EntrySection_logo_detail2 {
+        position: absolute;
+        width: 34.44px;
+        height: 23.54px;
+        margin-right: 15px;
+        margin-bottom: -15px;
+      }
+    }
+
+    .EntrySection_title {
+      margin-top: 32px;
+      font-family: "Circe Rounded";
+      font-size: 39px;
+      font-weight: 400;
+      line-height: 35px;
+      text-align: center;
+      color: #323854;
+      margin: 34px 0px 16px 0px;
+    }
+
+    .EntrySection_input {
+      width: 339px;
+      height: 36px;
+      padding: 10px 12px 10px 12px;
+      gap: 0px;
+      border-radius: 8px 8px 8px 8px;
+      justify-content: space-between;
+      opacity: 0px;
+      background: #ffffff;
+      border: 1px solid #ececec;
+      margin-bottom: 12px;
+    }
+
+    .EntrySection_input2 {
+      width: 339px;
+      height: 36px;
+      padding: 10px 12px 10px 12px;
+      gap: 0px;
+      border-radius: 8px 8px 8px 8px;
+      justify-content: space-between;
+      opacity: 0px;
+      background: #ffffff;
+      border: 1px solid #ececec;
+      margin-bottom: 12px;
+    }
+    /* 
+    .EntrySection_input.icon {
+      background: url() no-repeat center right;
+      padding-left: 30px;
+    } */
+
+    .Checkbox_container {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      margin-top: 4px;
+
+      .Checkbox {
+        border: 1px solid #c8c5cd;
+        background: #ffffff;
+        width: 24px;
+        height: 20px;
+      }
+
+      .Checkbox_label {
+        font-family: "Circe Rounded";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.2px;
+        text-align: left;
+        color: #79747f;
+      }
+    }
+  }
+  .Submit {
+    cursor: pointer;
+    width: 339px;
+    height: 48px;
+    padding: 10px 86px 10px 86px;
+    gap: 8px;
+    border-radius: 30px 30px 30px 30px;
+    opacity: 0px;
+    background: #8d7fc7;
+    font-family: "Circe Rounded";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.5px;
+    text-align: center;
+    color: #ffffff;
+    border: solid 1px #8d7fc7;
+    margin-top: 32px;
+  }
+
+  .linksSection {
+    margin-top: 6px;
+    width: 339px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .linksSection_link {
+      font-family: "Circe Rounded";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21.6px;
+      text-align: center;
+      color: #008aff;
+    }
+  }
+
+  .Registration_content {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .Registration_content_title {
+      font-family: Circe Rounded;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21.6px;
+      text-align: left;
+      color: #323854;
+    }
+
+    .Registration_content_link {
+      font-family: Circe Rounded;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21.6px;
+      text-align: center;
+      color: #008aff;
+    }
+  }
+
+  .language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 100px;
+    margin-bottom: 32px;
+
+    .language_link1 {
+      font-family: Circe Rounded;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 21px;
+      text-align: left;
+      color: #7362bc;
+    }
+
+    .language_link2 {
+      font-family: Circe Rounded;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21.6px;
+      text-align: left;
+      color: #79747f;
+    }
+  }
+}

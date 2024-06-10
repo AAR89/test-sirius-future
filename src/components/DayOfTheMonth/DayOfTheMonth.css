@@ -1,0 +1,21 @@
+.day_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+
+  .dayOfTheMonth {
+    width: 153.14px;
+    height: 101px;
+    padding: 4px 2px 2px 2px;
+    gap: 2px;
+    background: #fbfbfc;
+    border: 1px solid #ececec;
+    font-family: Circe Rounded;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 12px;
+    text-align: right;
+    color: #c8c5cd;
+  }
+}
