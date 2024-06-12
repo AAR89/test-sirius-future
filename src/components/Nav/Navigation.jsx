@@ -28,7 +28,10 @@ export default function Navigation() {
             alt="Home logo"
             className="nav_links_container_logo"
           />
-          <a href="#" className="nav_links_container_link">
+          <a
+            href="http://localhost:3000/2"
+            className="nav_links_container_link"
+          >
             Главная
           </a>
         </button>
@@ -39,7 +42,7 @@ export default function Navigation() {
             className="nav_links_container_logo"
           />
           <a
-            href="http://localhost:3000/2"
+            href="http://localhost:3000/3"
             className="nav_links_container_link"
           >
             Расписание

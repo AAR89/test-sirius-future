@@ -2,38 +2,18 @@
 import "./Scheduler.css";
 import Navigation from "../Nav/Navigation";
 import DayOfTheMonth from "../DayOfTheMonth/DayOfTheMonth";
-import message from "../../icons/Scheduler-logos/Messages.png";
-import avatar from "../../icons/Scheduler-logos/avatar.png";
-import arrow from "../../icons/Scheduler-logos/Arrow.png";
 import monthArrowLeft from "../../icons/Scheduler-logos/left.png";
 import monthArrowRight from "../../icons/Scheduler-logos/right.png";
-import { useState } from "react";
+import Header from "../Header/Header";
 
 export default function Scheduler() {
-  const [count, setCount] = useState(2);
-
   return (
     <div className="scheduler">
       <div className="left">
         <Navigation />
       </div>
       <div className="right">
-        <header className="header">
-          <div className="circles">
-            <div className="header_circle">
-              <img className="msg_logo" src={message} alt="Message logo" />
-              <div className="msg_count" onClick={() => setCount(count - 1)}>
-                {count}
-              </div>
-            </div>
-            <div className="header_circle">
-              <img src={avatar} alt="Avatar" />
-            </div>
-          </div>
-          <a href="#">
-            <img src={arrow} alt="Arrow" />
-          </a>
-        </header>
+        <Header />
         <div className="change_panel">
           <select className="select_subject" name="select">
             <option defaultValue>Выбрать предмет</option>
